@@ -1,6 +1,6 @@
 class PessoaJuridica extends Pessoa {
 
-    private _cnpj : string;
+    readonly _cnpj : string;
 
     constructor(nome: string, idade: number, dataNascimento: Date, cnpj: string) {
         super(nome, idade, dataNascimento);
